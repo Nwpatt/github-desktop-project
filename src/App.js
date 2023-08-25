@@ -5,7 +5,8 @@ import React from "react";
 // import { Header,Content,Footer } from "./func-components";
 // import RefsFunc from "./refs-func";  
 // import Calendar from "./class-components";
-import RefsArray from "./refs-array";
+// import RefsArray from "./refs-array";
+import MessageBox from "./state-func";
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
       <Calculator2/>
       <EventData2/>
       <RefsFunc/> */}
-      <RefsArray/>
+      {/* <RefsArray/> */}
+      {/* <RefsArray/> */}
       {/* <Footer/> */}
+      <MessageBox/>
     </>
   )
 }
