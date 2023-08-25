@@ -3,6 +3,7 @@ import Banner from "./banner";
 import { Calculator2 } from "./calculator";
 import { EventData2 } from "./event-data";
 import { Header,Content,Footer } from "./func-components";
+import RefsFunc from "./refs-func";  
 import Calendar from "./class-components";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner/>
       <Calculator2/>
       <EventData2/>
+      <RefsFunc/>
       <Footer/>
     </>
   )
