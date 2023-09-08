@@ -8,10 +8,13 @@ import React from "react";
 // import RefsArray from "./refs-array";
 // import MessageBox from "./state-func";
 import { userContext } from './context';
-import Header from "./context-header";
-import Content from "./context-content";
+// import Header from "./context-header";
+// import Content from "./context-content";
+import Header2 from "./context-header2";
+import Content2 from "./context-content2";
 
 function App() {
+  let [user,setUser] = React.useState()
   return (
     <>
       {/* <Header/>
@@ -25,9 +28,14 @@ function App() {
       {/* <RefsArray/> */}
       {/* <Footer/> */}
       {/* <MessageBox/> */}
-      <userContext.Provider value={'Tom jerry'}>
+      {/* <userContext.Provider value={'Tom jerry'}>
         <Header/>
         <Content/>
+      </userContext.Provider> */}
+      
+      <userContext.Provider value={[user,setUser]}>
+        <Header2/>
+        <Content2/>
       </userContext.Provider>
     </>
   )
