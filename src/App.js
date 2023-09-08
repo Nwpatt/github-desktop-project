@@ -6,7 +6,10 @@ import React from "react";
 // import RefsFunc from "./refs-func";  
 // import Calendar from "./class-components";
 // import RefsArray from "./refs-array";
-import MessageBox from "./state-func";
+// import MessageBox from "./state-func";
+import { userContext } from './context';
+import Header from "./context-header";
+import Content from "./context-content";
 
 function App() {
   return (
@@ -21,7 +24,11 @@ function App() {
       {/* <RefsArray/> */}
       {/* <RefsArray/> */}
       {/* <Footer/> */}
-      <MessageBox/>
+      {/* <MessageBox/> */}
+      <userContext.Provider value={'Tom jerry'}>
+        <Header/>
+        <Content/>
+      </userContext.Provider>
     </>
   )
 }
