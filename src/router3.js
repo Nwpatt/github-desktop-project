@@ -29,7 +29,7 @@ export default function Router3(){
                 <Route path="/products" element={<Products/>}/>
                 <Route path="/member" Component={Member}/>
                 <Route path="/contact" element={<div style={{textAlign:'center'}}>Contact Page</div>}/>
-                <Route path="/*" element={<Navigate to="/"/>}/>
+                <Route path="/*" element={<Navigate to="/home"/>}/>
             </Routes>
         </BrowserRouter>
     )
