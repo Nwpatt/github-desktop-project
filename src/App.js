@@ -1,6 +1,7 @@
 import React from "react";
+import FormText from "./form-text";
 // import Router2 from "./router2";
-import Router3 from "./router3";
+// import Router3 from "./router3";
 // import Banner from "./banner";
 // import { Calculator2 } from "./calculator";
 // import { EventData2 } from "./event-data";
@@ -39,7 +40,8 @@ function App() {
         <Header2/>
         <Content2/>
       </userContext.Provider> */}
-      <Router3/>
+      {/* <Router3/> */}
+      <FormText/>
     </>
   )
 }
