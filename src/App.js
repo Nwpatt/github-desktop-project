@@ -1,5 +1,6 @@
 import React from "react";
-import FormText from "./form-text";
+import FormCheck from "./form-check";
+// import FormText from "./form-text";
 // import Router2 from "./router2";
 // import Router3 from "./router3";
 // import Banner from "./banner";
@@ -41,7 +42,8 @@ function App() {
         <Content2/>
       </userContext.Provider> */}
       {/* <Router3/> */}
-      <FormText/>
+      {/* <FormText/> */}
+      <FormCheck/>
     </>
   )
 }
