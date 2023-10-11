@@ -16,6 +16,7 @@ import FormCheck from "./form-check";
 // import Content from "./context-content";
 // import Header2 from "./context-header2";
 // import Content2 from "./context-content2";
+import FormValidation from "./form-validation";
 
 function App() {
   // let [user,setUser] = React.useState()
@@ -43,7 +44,8 @@ function App() {
       </userContext.Provider> */}
       {/* <Router3/> */}
       {/* <FormText/> */}
-      <FormCheck/>
+      <FormValidation/>
+      {/* <FormCheck/> */}
     </>
   )
 }
